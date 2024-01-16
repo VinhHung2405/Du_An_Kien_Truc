@@ -1,11 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import HomePage from './user/page/Homepage/HomePage';
 function App() {
   return (
-    <div className="bg-red-500">
-     <h1 className='text-3xl text-white'>DU AN KIEN TRUC</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {/* user route */}
+        <Route>
+          <Route path='/' element={<HomePage/>}/>
+        </Route>
+        {/* admin route */}
+      </Routes>
+    </BrowserRouter>
   );
 }
 
