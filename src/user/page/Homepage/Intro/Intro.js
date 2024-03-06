@@ -8,7 +8,9 @@ export default function Intro() {
     <div >
       <div className="flex bg-slate-100 gt-page-heading " >
         <div className="text-center" style={{ width: "100%" }}>
+          <div className="vc_empty_space" style={{ height: 80 }}><span className="vc_empty_space_inner" /></div>
           <span style={{ marginBottom: '16px' }}>Our team</span>
+          <div className="vc_empty_space" style={{ height: 40 }}><span className="vc_empty_space_inner" /></div>
           <div className=" flex ">
             <div className='flex justify-center' style={{ margin: "0 10px 10px 50px" }} >
               <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-4 sm:gap-y-16 xl:col-span-2">
