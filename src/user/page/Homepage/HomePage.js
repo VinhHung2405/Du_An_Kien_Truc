@@ -3,7 +3,7 @@ import Banner from './Banner/Banner'
 
 export default function HomePage() {
   return (
-    <div className='container'> 
+    <div className=''> 
       <Banner/>
     </div>
   )
