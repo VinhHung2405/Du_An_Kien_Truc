@@ -1,6 +1,4 @@
-import { Col, Row, } from 'antd'
-import Card from 'antd/es/card/Card'
-import Meta from 'antd/es/card/Meta'
+
 import React from 'react'
 
 export default function Intro() {
@@ -8,77 +6,62 @@ export default function Intro() {
   return (
 
     <div >
-      <div>
-        <div className="flex justify-center w-full">
-          <div className="text-center">
-            <h1 style={{ fontSize: '32px' }}>Our team</h1>
-            <div className="container">
-              <Row justify="space-between">
-                <Col span={6}>
-                  <Card
-                    hoverable
-                    style={{ height: 360, width: "100%" }}
-                    cover={
-                      <div style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        height: "100%",
-                        backgroundColor: "#F8F6F9"
-                      }}>
-                        <img className='' style={{ borderRadius: "50%", width: "50%", marginTop: "20px", marginBottom: "20px" }} alt="example" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" />
-                      </div>
-                    }
-                  >
-                    <Meta title="Europe Street beat" description="www.instagram.com" />
+      <div className="flex bg-slate-100 gt-page-heading " >
+        <div className="text-center" style={{ width: "100%" }}>
+          <span style={{ marginBottom: '16px' }}>Our team</span>
+          <div className=" flex ">
+            <div className='flex justify-center' style={{ margin: "0 10px 10px 50px" }} >
+              <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-4 sm:gap-y-16 xl:col-span-2">
+                <li>
+                  <div className="flex items-center gap-x-6">
+                    <img style={{ borderRadius: "50%", width: "50%", marginTop: "20px", marginBottom: "20px" }} alt="example" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" />
 
-                  </Card>
-                </Col>
-                <Col span={6}>
-                  <Card
-                    hoverable
-                    style={{ height: 360, width: "100%" }}
-                    cover={
-                      <div style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        height: "100%",
-                        backgroundColor: "#F8F6F9"
-                      }}>
-                        <img className='' style={{ borderRadius: "50%", width: "50%", marginTop: "20px", marginBottom: "20px" }} alt="example" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" />
-                      </div>
-                    }
-                  >
-                    <Meta title="Europe Street beat" description="www.instagram.com" />
+                    <div>
+                      <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                      <p className="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center gap-x-6">
+                    <img style={{ borderRadius: "50%", width: "50%", marginTop: "20px", marginBottom: "20px" }} alt="example" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" />
 
-                  </Card>
-                </Col>
-                <Col span={6}>
-                  <Card
-                    hoverable
-                    style={{ height: 360, width: "100%" }}
-                    cover={
-                      <div style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        height: "100%",
-                        backgroundColor: "#F8F6F9"
-                      }}>
-                        <img className='' style={{ borderRadius: "50%", width: "50%", marginTop: "20px", marginBottom: "20px" }} alt="example" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" />
-                      </div>
-                    }
-                  >
-                    <Meta title="Europe Street beat" description="www.instagram.com" />
+                    <div>
+                      <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                      <p className="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center gap-x-6">
+                    <img style={{ borderRadius: "50%", width: "50%", marginTop: "20px", marginBottom: "20px" }} alt="example" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" />
 
-                  </Card>
-                </Col>
-              </Row>
+                    <div>
+                      <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                      <p className="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="flex items-center gap-x-6">
+                    <img style={{ borderRadius: "50%", width: "50%", marginTop: "20px", marginBottom: "20px" }} alt="example" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" />
+
+                    <div>
+                      <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                      <p className="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
             </div>
+            {/* <div style={{ width: "50%" }}>
+            </div> */}
+            <div className="vc_empty_space" style={{ height: 80 }}><span className="vc_empty_space_inner" /></div>
+
           </div>
         </div>
       </div>
+
     </div >
   )
 }

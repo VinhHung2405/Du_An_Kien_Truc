@@ -2,7 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-.container{
+
+.container {
     margin: auto;
-    width: 90%;
+    width: 48%;
+}
+
+.gt-page-heading span {
+    display: inline-flex;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 8px;
+    margin-bottom: 16px;
+    margin-right: -8px;
+}
+
+.gt-page-heading h1 {
+    margin: 0;
+    font-weight: 700;
+    max-width: 100%;
+    font-size: 3rem;
+}
+
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Rajdhani;
+    color: #6c757d;
+    ;
+
 }
