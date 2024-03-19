@@ -10,7 +10,7 @@ export default function HomePage() {
       <Banner />
       <About />
       <Intro />
-      <Project/>
+      <Project />
     </div>
   )
 }
