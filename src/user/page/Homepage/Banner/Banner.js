@@ -38,7 +38,7 @@ const Carousel = () => {
                   <div>
                   <h1 className="text-xl font-bold mt-3 mb-4 text=[#FFFFFF] text-center">A V E N U E</h1>
                   <span className='text-4xl p-8 text=[#FFFFFF] font-bold'>Clound Avenue & Fasion Street</span>
-                  </div>
+                  </div> 
                   
               </div>
               <div className='absolute inset-0 top-1/4 flex justify-center items-center'>
