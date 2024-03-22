@@ -5,7 +5,12 @@
 
 .container {
     margin: auto;
-    width: 48%;
+    width: 49%;
+}
+
+.pro_container {
+    margin: auto;
+    width: 80%;
 }
 
 .gt-page-heading span {
