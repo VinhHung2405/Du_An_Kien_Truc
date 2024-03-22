@@ -4,8 +4,7 @@ import React from 'react'
 export default function Intro() {
 
   return (
-
-    <div >
+    <div>
       <div className="flex bg-slate-100 gt-page-heading " >
         <div className="text-center" style={{ width: "100%" }}>
           <div className="vc_empty_space" style={{ height: 80 }}><span className="vc_empty_space_inner" /></div>
@@ -56,14 +55,9 @@ export default function Intro() {
                 </li>
               </ul>
             </div>
-            {/* <div style={{ width: "50%" }}>
-            </div> */}
-            <div className="vc_empty_space" style={{ height: 80 }}><span className="vc_empty_space_inner" /></div>
-
           </div>
         </div>
       </div>
-
     </div >
   )
 }
